@@ -38,13 +38,7 @@ pip install -r requirements.txt -r dev_requirements.txt
 > Note: `dev_requirements` is only related to testing and packaging. It is not mandatory to run Meshroom.
 
 ### Qt/PySide
-* PySide >= 5.15.2.1
-Warning: The plugin AssimpSceneParser is missing from pre-built binaries, so it needs to be added manually (see https://bugreports.qt.io/browse/QTBUG-88821).
-It can either be taken from an older version, or directly downloaded from here:
-  * Linux: [libassimpsceneimport.so](https://drive.google.com/uc?export=download&id=1cTU7xrOsLI6ICgRSYz_t9E1lsrNF1kBB))
-  * Windows: [assimpsceneimport.dll](https://drive.google.com/uc?export=download&id=1X9X9d5W_lCwEHWwF748IdnN1YYipAQT_)
-
-and then copied into PySide's installation folder, in `plugins/sceneparsers`.
+* PySide >= 6.6.3.1
 
 
 ### Qt Plugin
